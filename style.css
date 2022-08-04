@@ -1,0 +1,54 @@
+/* *{
+ padding: 0px;
+ box-sizing: border-box;
+} */
+
+body {
+ padding: 10px;
+ max-width: 850px;
+ margin: auto;
+ background-image: url(./img/dark-wood.jpg);
+ background-position: center;
+}
+
+/* HEADER STYLES */
+nav li {
+ display: inline;
+ color: white;
+}
+nav ul {
+ background-color: grey;
+ height: 50px;
+}
+
+/* HEADER STYLES END */
+
+/* ASIDE STYLES STARTS*/
+body aside {
+ float: right;
+ width: 300px;
+ /* margin: 0px 0px 20px 20px; */
+ padding: 5px;
+ border: 2px solid black;
+}
+/* ASIDE STYLES ENDS */
+
+.wrapper{
+ background-color: white;
+}
+figure{
+ float: left;
+ width: 300px;
+}
+h4{
+ color: red;
+}
+
+/* FOOTER STYLES STARTS */
+footer {
+ background-color: gray;
+ font-weight: lighter;
+ height: 30px;
+}
+
+/* FOOTER STYLES ENDS */
